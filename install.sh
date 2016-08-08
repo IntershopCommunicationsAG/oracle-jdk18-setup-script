@@ -1,11 +1,13 @@
 #!/bin/sh
 
 # the script must be started by root or with sudo permissions
+# see http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+# for jdk downloads
 
 # specify the jdk
-JDK='jdk1.8.0_65'
-JDKFILE='jdk-8u65-linux-x64.tar.gz'
-JDKPATH="http://download.oracle.com/otn-pub/java/jdk/8u65-b17/$JDKFILE"
+JDK='jdk1.8.0_77'
+JDKFILE='jdk-8u77-linux-x64.tar.gz'
+JDKPATH="http://download.oracle.com/otn-pub/java/jdk/8u77-b03/$JDKFILE"
 
 # oracle request header
 ORACLELIC="Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"
